@@ -1,7 +1,7 @@
-pipeline {  
+jenkinspipeline {  
     agent any  
     
-    stages {  
+    jenkinstages {  
         /*
 		Jenkinsfile is coming from this gitrepo. Hence below step not required.
 		stage ('Git-Checkout') {  
